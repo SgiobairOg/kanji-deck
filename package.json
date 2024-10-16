@@ -1,0 +1,17 @@
+{
+  "name": "kanji-deck",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "process:kanjidic": "npx tsx ./data/scripts/kanjidic2-to-json.ts"
+  },
+  "author": "Aoibhe Wilson <aoibhe@wilsons.io>",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "sax": "^1.4.1",
+    "typescript": "^5.6.3"
+  }
+}
